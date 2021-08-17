@@ -1,0 +1,834 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url(/fonts/GILROY-BOLD.TTF);
+}
+@font-face {
+  font-family: "Gilroy reg italic";
+  src: url(/fonts/GILROY-REGULARITALIC.TTF);
+}
+@font-face {
+  font-family: "Gilroythin";
+  src: url(/fonts/GILROY-THIN.TTF);
+}
+@font-face {
+  font-family: "GilroYMED";
+  src: url(/fonts/GILROY-MEDIUM.TTF);
+}
+@font-face {
+  font-family: "phone";
+  src: url(/fonts/fa-solid-900.ttf);
+}
+@font-face {
+  font-family: "Gilroymedit";
+  src: url(/fonts/GILROY-MEDIUMITALIC.TTF);
+}
+body {
+  margin: 0 auto;
+  max-width: 560px;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 81px;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: #fff;
+}
+.header__top {
+  display: flex;
+  flex-direction: raw;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__top__left {
+  width: 200px;
+  height: 35px;
+  font-family: "gilroy";
+  margin-top: 19px;
+  margin-left: 28.6px;
+}
+.header__top__left p {
+  font-size: 30px;
+}
+.header__top__right {
+  display: flex;
+  width: 111px;
+  height: 30px;
+  margin-right: 25px;
+  margin-top: 19px;
+  align-items: center;
+  padding-top: 5px;
+  justify-content: space-between;
+}
+.header__top__right span {
+  font-size: 20px;
+  font-family: "Gilroy reg italic";
+}
+.header__top__right img {
+  width: 35px;
+  height: 15px;
+}
+
+main .screen__one {
+  width: 100%;
+  height: 1070px;
+  background-image: url("/images/photos/Прямоугольник 493.png");
+  background-position-y: -78px;
+  background-size: cover;
+  align-items: center;
+  padding-top: 133px;
+  padding-left: 35px;
+  position: relative;
+}
+main .screen__one__background {
+  width: 93%;
+  height: 599px;
+  background-image: url("/images/icons/Сгруппировать 1489.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+main .screen__one__background .logo {
+  width: 90%;
+  height: 100px;
+  margin-top: 90px;
+}
+main .screen__one__background .logo img {
+  width: 100%;
+}
+main .screen__one__background .logo img:last-child {
+  width: 35%;
+  margin: 9px 144px;
+}
+main .screen__one__bottom {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+}
+main .screen__one__bottom__left {
+  position: relative;
+  margin-left: 27px;
+  margin-top: 8px;
+  color: #fff;
+}
+main .screen__one__bottom__left p {
+  font-family: "Gilroy reg italic";
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+main .screen__one__bottom__left h3 {
+  margin-top: 7px;
+  font-size: 25px;
+  letter-spacing: 0.4px;
+  font-family: Roboto;
+}
+main .screen__one__bottom .img {
+  width: 100px;
+  height: 85px;
+  background-image: url("/images/icons/Сгруппировать 1471.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+}
+main .screen__two {
+  height: 850px;
+}
+main .screen__two__number {
+  height: 63.5%;
+  position: relative;
+}
+main .screen__two__number__right {
+  position: absolute;
+  width: 67.5%;
+  height: 100%;
+  background-color: #1E1E1E;
+  right: 0;
+  z-index: -1;
+}
+main .screen__two__number__inner {
+  position: absolute;
+  width: 32.5%;
+  height: 100%;
+  background-color: #383126;
+  background-image: url("/images/icons/Вычитание 2.png");
+  background-position-x: -67px;
+  background-position-y: 165.5px;
+  background-repeat: no-repeat;
+  background-size: 253px;
+  position: abosolute;
+  z-index: -1;
+}
+main .screen__two__number__top {
+  width: 100%;
+  height: 50%;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+main .screen__two__number__top .studio {
+  margin-bottom: 13px;
+}
+main .screen__two__number__top .studio p,
+main .screen__two__number__top .studio h3 {
+  font-family: "gilroy";
+}
+main .screen__two__number__top .studio p {
+  margin-bottom: 8px;
+  font-size: 19px;
+  margin-left: 26.5px;
+}
+main .screen__two__number__top .studio h3 {
+  color: #CD9966;
+  font-size: 31px;
+  margin-left: 25.4px;
+}
+main .screen__two__number__text {
+  color: grey;
+  padding: 23.5px;
+  padding-top: 17px;
+}
+main .screen__two__number__text p {
+  font-size: 20px;
+  font-family: "gilroy";
+}
+main .screen__two__img {
+  width: 100%;
+  height: 36.5%;
+  background-image: url("/images/photos/Прямоугольник 8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+main .screen__three {
+  width: 100%;
+  height: 136.5vh;
+  background-color: black;
+}
+main .screen__three__top {
+  width: 80.9%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 65.6px;
+  position: relative;
+  color: #fff;
+}
+main .screen__three__top .item {
+  width: 100%;
+  height: 200px;
+  font-family: gilroy;
+}
+main .screen__three__top .item h3 {
+  color: #E3A567;
+  font-weight: 100;
+  font-size: 24px;
+  margin-left: 120px;
+}
+main .screen__three__top .intelectual__property img {
+  top: 6.5%;
+  position: absolute;
+  margin-left: 203px;
+  width: 55px;
+  height: 23px;
+}
+main .screen__three__top .intelectual__property h3 {
+  margin-top: 23px;
+}
+main .screen__three__top .intelectual__property p {
+  line-height: 22.3px;
+  font-size: 18.5px;
+  margin-top: 13px;
+}
+main .screen__three__top .intelectual__property p span {
+  margin-left: 14.9px;
+}
+main .screen__three__top .intelectual__property p span:first-child {
+  margin: 8px;
+}
+main .screen__three__top .intelectual__property p span:nth-child(2) {
+  margin-left: 20px;
+}
+main .screen__three__top .intelectual__property p span:nth-child(3) {
+  margin-left: 25px;
+}
+main .screen__three__top .intelectual__property p span:nth-child(4) {
+  margin-left: 1px;
+}
+main .screen__three__top .intelectual__property p span:nth-child(5) {
+  margin-left: 8px;
+}
+main .screen__three__top .pro img {
+  position: absolute;
+  margin-top: 14px;
+  margin-left: 210px;
+  width: 35px;
+  height: 35px;
+}
+main .screen__three__top .pro h3 {
+  margin-top: 65px;
+  margin-left: 80px;
+}
+main .screen__three__top .pro p {
+  line-height: 22.3px;
+  font-size: 18.5px;
+  margin-top: 13px;
+}
+main .screen__three__top .pro p span {
+  margin-left: 14.9px;
+}
+main .screen__three__top .pro p span:first-child {
+  margin: 8px;
+}
+main .screen__three__top .pro p span:nth-child(2) {
+  margin-left: 20px;
+}
+main .screen__three__top .pro p span:nth-child(3) {
+  margin-left: 25px;
+}
+main .screen__three__top .pro p span:nth-child(4) {
+  margin-left: 1px;
+}
+main .screen__three__top .pro p span:nth-child(5) {
+  margin-left: 8px;
+}
+main .screen__three__top .realization img {
+  top: 63%;
+  position: absolute;
+  margin-top: 14px;
+  margin-left: 210px;
+  width: 35px;
+  height: 45px;
+}
+main .screen__three__top .realization h3 {
+  margin-top: 110px;
+  margin-left: 120px;
+}
+main .screen__three__top .realization p {
+  line-height: 22.3px;
+  font-size: 18.5px;
+  margin-top: 13px;
+}
+main .screen__three__top .realization p span {
+  margin-left: 14.9px;
+}
+main .screen__three__top .realization p span:first-child {
+  margin: 8px;
+}
+main .screen__three__top .realization p span:nth-child(2) {
+  margin-left: 20px;
+}
+main .screen__three__top .realization p span:nth-child(3) {
+  margin-left: 25px;
+}
+main .screen__three__top .realization p span:nth-child(4) {
+  margin-left: 1px;
+}
+main .screen__three__top .realization p span:nth-child(5) {
+  margin-left: 8px;
+}
+main .screen__three__bottom {
+  width: 100%;
+  height: 500px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .screen__three__bottom .numbers {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 200px;
+  background-color: black;
+  color: #fff;
+  font-family: "Gilroy reg italic";
+}
+main .screen__three__bottom .numbers span {
+  margin-left: 47px;
+  font-size: 19px;
+  margin-top: 7px;
+}
+main .screen__three__bottom .numbers img {
+  width: 70px;
+  height: 50px;
+  margin: 8px;
+}
+main .screen__three__bottom .seven img {
+  width: 80px;
+  height: 50px;
+  margin: 8px;
+}
+main .screen__three__bottom .seven span {
+  margin-left: 35px;
+  margin-top: 7px;
+  line-height: 22px;
+}
+main .screen__three__bottom .nine img {
+  width: 90px;
+  height: 52px;
+  margin: 19px 8px;
+}
+main .screen__three__bottom .nine span {
+  margin-left: 27px;
+  margin-top: 19px;
+  line-height: 22px;
+}
+main .screen__three__bottom button {
+  margin-top: 10px;
+  height: 114px;
+  width: 90%;
+  margin-bottom: 45px;
+  font-family: gilroy;
+  font-size: 20.5px;
+  color: #fff;
+  background-color: #E3A567;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+main .screen__four {
+  width: 100%;
+  height: 129.5vh;
+  position: relative;
+}
+main .screen__four .images {
+  width: 100%;
+  height: 315.5px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+main .screen__four .images .text {
+  color: #fff;
+  width: 65%;
+  height: 100px;
+  margin: auto;
+  color: #000;
+  font-family: gilroy;
+}
+main .screen__four .images .first {
+  margin-top: 100px;
+  color: #fff;
+}
+main .screen__four .images h2 {
+  font-size: 30px;
+  margin-top: 25px;
+  margin-left: 19px;
+}
+main .screen__four .images p {
+  font-size: 18.2px;
+  margin-top: 2px;
+}
+main .screen__four .images .second {
+  color: #fff;
+  margin-top: 114px;
+}
+main .screen__four .images .second h3 {
+  font-size: 30.3px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+main .screen__four .images .second p {
+  font-size: 18.2px;
+  margin-top: 2px;
+}
+main .screen__four .images .third {
+  color: #fff;
+  width: 75%;
+  margin-top: 99px;
+}
+main .screen__four .images .third h3 {
+  font-size: 30px;
+  margin-top: 25px;
+  margin-left: 14.8px;
+}
+main .screen__four .images .third p {
+  font-size: 18.2px;
+  margin-top: 2px;
+  margin-left: 27PX;
+}
+main .screen__four .first1 {
+  background-image: url("/images/photos/slider_bolshevik-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .screen__four .zones {
+  background-image: url("/images/photos/slider_bolshevik-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .screen__four .projects {
+  background-image: url("/images/photos/slider_bolshevik.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .screen__four .about {
+  height: 290px;
+  display: flex;
+  position: relative;
+  font-family: gilroy;
+  display: flex;
+}
+main .screen__four .about .about__text1 {
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 180px;
+}
+main .screen__four .about .about__text1 p,
+main .screen__four .about .about__text1 h3 {
+  line-height: 38px;
+}
+main .screen__four .about .about__text1 p {
+  font-size: 19px;
+  font-family: "GilroYMED";
+  color: white;
+  margin-left: 10PX;
+}
+main .screen__four .about .about__text1 h3 {
+  font-family: "GilroYMED";
+  font-size: 30px;
+  color: white;
+  margin-left: 13px;
+  letter-spacing: 0.7px;
+  color: #E3A567;
+}
+main .screen__four .about .inner {
+  overflow: hidden;
+  position: absolute;
+  width: 33%;
+  height: 100%;
+  background-color: #383126;
+  background-image: url("/images/photos/Вычитание 4.png");
+  background-position-x: -67px;
+  background-position-y: 165.5px;
+  background-repeat: no-repeat;
+  background-size: 253px;
+  position: abosolute;
+  z-index: -1;
+}
+main .screen__four .about .right {
+  position: absolute;
+  width: 67%;
+  height: 100%;
+  background-color: #1E1E1E;
+  right: 0;
+  z-index: -1;
+}
+main .screen__five__button {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  background-color: black;
+}
+main .screen__five__button button {
+  margin: auto;
+  margin-top: 40px;
+  width: 90%;
+  height: 60px;
+  outline: none;
+  border: none;
+  font-size: 21px;
+  font-family: gilroy;
+  align-items: center;
+  border: 2.5px solid #E3A567;
+  border-radius: 5px;
+  color: #E3A567;
+  background-color: transparent;
+}
+main .screen__five {
+  position: relative;
+  color: #FFF;
+  z-index: 1;
+  width: 100%;
+  height: 94.5vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/images/photos/Прямоугольник 516.png");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-size: cover;
+}
+main .screen__five .dark {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 94.5vh;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: #fff;
+}
+main .screen__five__unique-design {
+  margin-top: 130px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+main .screen__five__unique-design p:nth-child(1) {
+  font-family: "GilroyMED";
+  color: #E3A567;
+  font-size: 18.5px;
+  margin-top: 33px;
+  margin-left: 26px;
+}
+main .screen__five__unique-design p:nth-child(2) {
+  font-family: gilroy;
+  margin-top: 5.5px;
+  margin-left: 27px;
+  font-size: 22.5px;
+  letter-spacing: 0.9px;
+}
+main .screen__five .form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0px auto;
+  color: #fff;
+}
+main .screen__five .form input {
+  height: 80px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  font-size: 24.5px;
+  font-family: gilroy;
+  padding-top: 27px;
+  color: #fff;
+}
+main .screen__five .form input:nth-child(3) {
+  height: 80px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  font-size: 24.5px;
+  font-family: gilroy;
+  padding-top: 10px;
+}
+main .screen__five .form input:nth-child(2) {
+  height: 80px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  font-size: 24.5px;
+  font-family: gilroy;
+  padding-top: 22px;
+}
+main .screen__five .form .btn {
+  height: 65px;
+  margin-top: 30px;
+  border: 1px solid #E3A567;
+  background-color: #E3A567;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+main .screen__five .agreement {
+  margin-top: 30px;
+  color: grey;
+  font-family: "Gilroy reg italic";
+  font-size: 19px;
+  margin-left: 25px;
+}
+main .screen__six__iphone {
+  width: 100%;
+  height: 64vh;
+  background-color: black;
+  padding-top: 100px;
+}
+main .screen__six__iphone .iphone {
+  width: 90%;
+  height: 81%;
+  background-image: url("/images/photos/Сгруппировать 1189.png");
+  background-repeat: no-repeat;
+  background-position-y: 10px;
+  background-size: cover;
+  margin: auto;
+}
+main .screen__six .screen__six__socials {
+  width: 100%;
+  height: 225px;
+  background-color: black;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+main .screen__six .screen__six__socials p {
+  font-size: 24px;
+  font-family: "Gilroy reg italic";
+  padding-left: 26px;
+  padding-top: 6px;
+}
+main .screen__six .screen__six__socials__bottom {
+  color: grey;
+}
+main .screen__six .screen__six__socials__bottom p {
+  margin-top: 20px;
+  font-size: 18.5px;
+}
+main .screen__six .screen__six__socials__bottom__icons {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 26px;
+}
+main .screen__six .screen__six__socials__bottom__icons img {
+  width: 30px;
+  margin-right: 29px;
+}
+main .screen__six .screen__six__socials__bottom__icons img:nth-child(5) {
+  width: 30px;
+  margin-right: 20px;
+}
+main .screen__six__contacts {
+  width: 100%;
+  background-color: black;
+  height: 243px;
+  padding-top: 40px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+main .screen__six__contacts__inner {
+  width: 250px;
+  height: 80%;
+  margin-left: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .screen__six__contacts__inner .huge {
+  color: #fff;
+  margin-top: 5px;
+  font-family: gilroy;
+  font-size: 24.5px;
+}
+main .screen__six__contacts__inner .contacts1 {
+  font-family: "Gilroymedit";
+  height: 63%;
+  font-size: 20PX;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .screen__six__contacts__inner .contacts1 p {
+  font-size: 19px;
+  color: grey;
+}
+main .screen__six__contacts__inner .contacts1 p:nth-child(3) {
+  font-size: 19px;
+  margin-left: 4px;
+  margin-bottom: 2px;
+}
+main .screen__six__contacts__inner .contacts1 P::before {
+  content: "";
+  font-family: "phone";
+  margin-right: 20px;
+}
+main .screen__six__contacts__inner .contacts1 P:nth-child(2):before {
+  content: "";
+  font-family: "phone";
+  margin-right: 20px;
+}
+main .screen__six__contacts__inner .contacts1 P:nth-child(3):before {
+  content: "";
+  font-family: "phone";
+  margin-right: 20px;
+}
+main .screen__six__form {
+  color: #fff;
+  width: 100%;
+  background-color: black;
+  height: 45vh;
+  padding: 40px 26px;
+}
+main .screen__six__form p {
+  font-family: gilroy;
+  font-size: 24.5px;
+}
+main .screen__six__form .form input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 65px;
+  font-family: "Gilroy reg italic";
+  font-weight: 800;
+  font-size: 19px;
+  padding-top: 20px;
+  color: #fff;
+}
+main .screen__six__form .form input:nth-child(2) {
+  width: 100%;
+  height: 76px;
+  padding-top: 25px;
+}
+main .screen__six__form .form input:nth-child(3) {
+  width: 100%;
+  height: 76px;
+  padding-top: 25px;
+}
+main .screen__six__form .form .btn1 {
+  padding-top: 15px;
+  width: 100%;
+  height: 70px;
+  margin-top: 30px;
+  border: 1px solid #E3A567;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  font-size: 19px;
+  font-family: "GilroYMED";
+  color: #000;
+  align-items: center;
+}
+main .footer {
+  width: 100%;
+  height: 160px;
+  background-color: black;
+  padding-top: 33px;
+  -moz-column-rule: #fff;
+       column-rule: #fff;
+}
+main .footer .icons {
+  width: 250px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+main .footer .icons img {
+  width: 20px;
+  margin: 0px 6px;
+  margin-right: 11.2px;
+}
+main .footer p {
+  color: #fff;
+  font-size: 18.8px;
+  font-family: gilroy;
+  margin-top: 10px;
+  margin-left: 50px;
+}/*# sourceMappingURL=index.css.map */
